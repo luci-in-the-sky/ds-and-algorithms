@@ -6,8 +6,7 @@ def palindrome_check(s: str) -> bool:
             return False
         head += 1
         tail -= 1
-    else:
-        return True
+    return True
 
 
 if __name__ == '__main__':
